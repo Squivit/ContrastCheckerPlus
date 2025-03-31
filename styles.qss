@@ -1,0 +1,93 @@
+/*
+primaryTextColor = #ffd740
+primaryColor = #ffff74
+secondaryDarkColor = #232629
+secondaryColor = #4f5b62
+secondaryLightColor = #31363b
+secondaryTextColor = #ffffff
+*/
+
+*{
+    color: #ffd740;
+}
+
+QPushButton {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: black;
+    padding: 5px;
+    border: 1px solid rgb(234, 209, 18);
+    border-radius: 6px;
+}
+
+QPushButton:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+
+QPushButton:checked {
+    background-color:rgba(234, 209, 18, 200);
+    color: black;
+    border-color: #ffd740;
+}
+
+QPushButton:checked:hover {
+    background-color:rgba(234, 209, 18, 150);
+}
+
+
+QMainWindow {
+    background-color: black;
+}
+
+
+QTabWidget {
+    color: #ffd740;
+    background-color: #31363b;
+    border: 1px solid rgb(234, 209, 18);
+}
+
+QTabBar::tab {
+    color: #ffd740;
+    background-color: #232629;
+    border: 2px solid rgb(234, 209, 18);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding-right: 15px; 
+    padding-left: 15px; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+}
+
+QTabBar::tab:selected { 
+  background: #31363b; 
+  margin-bottom: -2px; 
+}
+
+
+QComboBox {
+    color: #ffd740;
+    background-color: #31363b;
+}
+
+QComboBox QAbstractItemView {
+    color: #ffd740;
+    background-color: #31363b;
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+}
+
+
+QLineEdit {
+    color: #ffffff;
+    background-color: #31363b;
+    border: 1px solid rgb(234, 209, 18);
+}
+
+QCheckBox {
+    background-color: #31363b;
+}
+
+QSpinBox {
+    background-color: #31363b;
+}
